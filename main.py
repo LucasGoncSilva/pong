@@ -37,7 +37,7 @@ menu.add.vertical_margin(100)
 menu.add.button('Play', run, win)
 menu.add.button('Quit', events.EXIT)
 menu.add.vertical_margin(20)
-menu.add.label('Arrow Keys to move:\n◄▲▼►')
+menu.add.label('Keys to move:\nW ▲\nS ▼')
 menu.add.vertical_margin(200)
 menu.add.label('by: LucasGoncSilva')
 
