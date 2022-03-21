@@ -1,4 +1,4 @@
-<h1>Pong :Teclas W e Spaper: </h1>
+<h1>Pong :paper: </h1>
 
 <h4 align='justify'>Uma espécie de releitura do clássico Pong, originalmente lançado em 1972. Não possui bot, possibilitando que o jogo funcione corretamente apenas controlando os dois jogadores (barras). O primeiro a marcar 10 pontos vence. Teclas "W" e "S" e setas direcionais cima e baixo movimentam as barras.</h4>
 
