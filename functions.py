@@ -24,14 +24,14 @@ def exit_game() -> None:
     pg_quit()
     quit()
 
-def restart():
+def restart(win):
     ball.regenerate()
     player1.regenerate()
     player2.regenerate()
     score1.reset()
     score2.reset()
 
-    run()
+    run(win)
 
 def run(win: object):
     player1_moving_up = False
@@ -172,7 +172,7 @@ def run(win: object):
 
             if event.type == KEYDOWN:
                 if event.key == K_q or event.key == K_ESCAPE: exit_game()
-                if event.key == K_r: restart()
+                if event.key == K_r: restart(win)
 
         end1_text = FONT.render(
             f'Game Over! The score is:',
